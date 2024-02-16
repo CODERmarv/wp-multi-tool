@@ -3,7 +3,7 @@
 wpcli() {
 
 num_columns=4
-bin_dir='/inc/cli/bin'
+bin_dir='/inc/cli'
 fname='cli-main-commands.txt'
 
         if [ ! -f "$bin_dir$fname" ] || [ -s "$bin_dir$fname" ]; then

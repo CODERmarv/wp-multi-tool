@@ -3,12 +3,12 @@
 type="$1"
 slug="$2"
 
-source inc/vars.sh
-source inc/theme-checker.sh
-source inc/plugin-checker.sh
-source inc/stability.sh
-source inc/command-checker.sh
-source inc/helper.sh
+source vars.sh
+source theme-checker.sh
+source plugin-checker.sh
+source stability.sh
+source command-checker.sh
+source helper.sh
 
 case $type in
 
